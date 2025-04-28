@@ -1,24 +1,33 @@
 //line below is used to print on the console window
-console.log('Namaste duniya version4');
+// console.log('Namaste duniya version4');
 
-//Variables
+// //Variables
 
-//let Variable!
-let a = 'sharma';
-console.log(a);
+// //let Variable!
+// let a = 'sharma';
+// console.log(a);
 
-//var Variable!
-var lastName = 'anurag';
-console.log(lastName);
+// //var Variable!
+// var lastName = 'anurag';
+// console.log(lastName);
 
-//constant Variable!
-const num = 123;
-// num = 321;
-console.log(num);
+// //constant Variable!
+// const num = 123;
+// // num = 321;
+// console.log(num);
 
-//Dynamicaly Type
-let age = 'pata nahi';
-console.log(age);
+// //Dynamicaly Type
+// let age = 'pata nahi';
+// console.log(age);
 
-age = 20;
-console.log(age);
+// age = 20;
+// console.log(age);
+
+let a = 5;
+let b = 10;
+
+// console.log((++a)*(--b));
+// console.log((a++)*(--b));
+console.log((a++)*(b--));
+console.log((++a)*(b--));
+console.log (typeof a);

@@ -31,3 +31,22 @@ let b = 10;
 console.log((a++)*(b--));
 console.log((++a)*(b--));
 console.log (typeof a);
+
+
+//Truthy & Falsey Values
+
+let string = " ";
+
+if(string) {
+    console.log("String is not empty")
+}else {
+    console.log("String is empty")
+}
+
+let num = 9;
+
+if(num) {
+    console.log("num is not equall to 0");
+} else {
+    console.log("num is equall to 0")
+}

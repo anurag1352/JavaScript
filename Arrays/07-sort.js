@@ -9,3 +9,9 @@ console.log(cars)
 
 let sort2 = cars.sort();
 console.log(sort2);
+
+let char = ["d","e","a","f","h"];
+console.log(char);
+
+let sort3 = char.sort();
+console.log(sort3);

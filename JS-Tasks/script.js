@@ -40,3 +40,15 @@ console.log(emp.length);
 
 let space = " "; //1
 console.log(space.length);
+
+// Write a function that takes two numbers as arguments and returns their sum.
+
+function sum(num1,num2){
+    return num1 + num2;
+}
+
+let n1 = 90;
+let n2 = 60;
+
+let sumOfTwo = sum(n1,n2);
+console.log(sumOfTwo);

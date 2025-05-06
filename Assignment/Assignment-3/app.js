@@ -17,7 +17,7 @@ let copy1 = number1;
 
 while(copy1 > 0){
     copy1++;
-    copy = Math.floor(copy1/10);
+    copy1 = Math.floor(copy1/10);
 }
 console.log(count);
 

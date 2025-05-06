@@ -11,3 +11,6 @@ console.log(student);
 
 student.gender = "Male";
 console.log(student);
+
+delete student.age;
+console.log(student);

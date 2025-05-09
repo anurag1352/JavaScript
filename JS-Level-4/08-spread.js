@@ -19,3 +19,18 @@ let even = [2,4,6,8,10];
 
 let nums = [...odd, ...even];
 console.log(nums);
+
+//Spread with object literals.
+const data = {
+    email: "ironman@gmail.com",
+    password: "abcd",
+};
+
+const dataCopy = {...data, id: 123, country: "India"};
+console.log(dataCopy);
+
+let obj = {...arr};
+console.log(obj);
+
+let obj2 = {..."Sindhoor"};
+console.log(obj2);
